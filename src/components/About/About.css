@@ -1,0 +1,185 @@
+html {
+    font-size: 62.5%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 6rem 5rem;
+}
+
+.aboutTitle h1 {
+    padding: 0rem 3rem;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.aboutTitle hr {
+    outline: none;
+    border: none;
+    height: .3rem;
+    border-radius: 5rem;
+    background: linear-gradient(267deg, #ffb066 0.36%, #bd32e3 102.02%);
+
+}
+
+.aboutSection {
+    display: flex;
+    gap: 3rem;
+}
+
+.aboutSection img {
+    width: 35%;
+
+    border-radius: .5rem;
+}
+
+
+.aboutPera {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+
+.aboutSkills {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.aboutSkill {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    transition: 0.3s;
+
+}
+
+
+.aboutSkill:hover {
+    transform: scale(1.05);
+}
+
+.aboutSkill p {
+    min-width: 20rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.aboutSkill hr {
+    outline: none;
+    border: none;
+    width: 70%;
+    height: .4rem;
+    border-radius: 5rem;
+    background: linear-gradient(267deg, #ffb066 0.36%, #bd32e3 102.02%);
+}
+
+.aboutAchievements {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 8rem;
+}
+
+.aboutAchievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    transition: 0.5s;
+
+}
+
+.aboutAchievement:hover {
+    transform: scale(1.12);
+
+}
+
+.aboutAchievement h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    background: linear-gradient(267deg, #ffb066 0.36%, #bd32e3 102.02%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.aboutAchievement p {
+    font-size: 2rem;
+}
+
+
+@media(max-width:1050px) {
+
+
+    .aboutSection {
+
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .aboutSkill hr {
+
+        width: 60rem;
+        height: .3rem;
+    }
+
+    .aboutSkill p {
+        min-width: 10rem;
+        font-size: 1.5rem;
+
+    }
+}
+
+
+@media(max-width:710px) {
+
+
+    .about {
+
+
+        gap: 2rem;
+        margin: 2rem 3rem;
+    }
+
+    .aboutPera {
+
+
+        font-size: 1.6rem;
+    }
+
+    .aboutSkill p {
+
+        font-size: 1.6rem;
+        font-weight: 300;
+    }
+
+    .aboutSkill hr {
+
+        width: 60%;
+        height: .2rem;
+        border-radius: 5rem;
+
+    }
+
+    .aboutAchievement h1 {
+        font-size: 3rem;
+    }
+
+
+    .aboutAchievement p {
+        font-size: 1.2rem;
+    }
+
+}

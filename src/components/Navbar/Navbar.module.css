@@ -1,0 +1,186 @@
+html {
+    font-size: 62.5%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem 5rem;
+    position: sticky;
+    top: 0;
+    gap: 3rem;
+    background-color: rgb(42, 39, 39, 0.6);
+
+
+}
+
+.menuLink {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    list-style: none;
+    gap: 4rem;
+    font-size: 1.6rem;
+
+}
+
+.menuhr {
+    height: .4rem;
+    background: linear-gradient(267deg, #caf0f8 0.36%, #fdf0d5 102.02%);
+    border-radius: .2rem;
+}
+
+.navbarLi {
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+
+
+.navConnect {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    /* background: linear-gradient(267deg, blue 0.36%, white 102.02%); */
+
+    /* background: linear-gradient(267deg, #ffb066 0.36%, #bd32e3 102.02%); */
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    color: wheat;
+    background-color: rgb(12, 12, 125);
+
+
+}
+
+.navConnect:hover {
+    transform: scale(1.06);
+    background-color: rgb(27, 27, 93);
+
+}
+
+.img {
+    background-color: white;
+    padding: .4rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.gitHub {
+    font-size: 3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+
+.gitHub:hover {
+    transform: scale(1.05);
+}
+
+.mode {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 3rem;
+
+}
+
+.darkMode {
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 2rem;
+    margin-top: .5rem;
+
+
+}
+
+.navMobile {
+    display: none;
+}
+
+.navMobClose {
+    display: none;
+}
+
+@media(max-width:950px) {
+
+
+
+    .navConnect {
+        display: none;
+    }
+}
+
+
+@media (max-width:750px) {
+    .navMobile {
+        display: block;
+        position: fixed;
+        right: 3rem;
+        font-size: 3rem;
+        margin-left: 4rem;
+
+    }
+
+    .navMobClose {
+        display: block;
+        position: relative;
+        top: 3rem;
+        left: 10rem;
+        width: 10%;
+        font-size: 3rem;
+
+    }
+
+    .color {
+        background-color: rgb(33, 30, 30, 0.4);
+    }
+
+    .navMenu {
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        /* left: 0; */
+        right: 0;
+        gap: 4rem;
+        background-color: rgb(33, 30, 30, 0.9);
+        width: 27rem;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        /* right: -350rem; */
+
+    }
+
+    .menuLink {
+        color: white;
+    }
+
+    .navbar {
+        padding: 1rem 2rem;
+        position: static;
+    }
+
+    .darkMode {
+        margin-right: 6rem;
+    }
+
+
+}

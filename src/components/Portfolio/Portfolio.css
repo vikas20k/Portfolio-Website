@@ -1,0 +1,93 @@
+html {
+    font-size: 62.5%;
+}
+
+.mywork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 4rem 5rem;
+}
+
+.myworkTitle h1 {
+    padding: 0rem 3rem;
+    font-size: 4rem;
+    font-weight: 500;
+
+}
+
+.myworkTitle hr {
+    outline: none;
+    border: none;
+    height: .4rem;
+    border-radius: 5rem;
+    background: linear-gradient(267deg, #ffb066 0.36%, #bd32e3 102.02%);
+
+}
+
+.myworkContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.myworkContainer img {
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 35rem;
+    height: 20rem;
+    transition: 0.3s;
+    border-radius: 1rem;
+}
+
+
+.myworkContainer img:hover {
+    transform: scale(1.10);
+    border: .2rem solid #bd32e3;
+
+
+}
+
+.myworkShowmore {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    border-radius: 5rem;
+    border: .2rem solid white;
+    padding: 1rem 2rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 8rem;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 2px solid black;
+
+}
+
+.myworkShowmore:hover {
+    transform: scale(1.05);
+    border: 2px solid green;
+
+
+}
+
+.card p {
+    color: rgb(151, 151, 188);
+    text-align: center;
+    margin-top: .5rem;
+    font-size: 1.5rem;
+}
+
+
+@media(max-width:450px) {
+    .myworkContainer img {
+
+        width: 25rem;
+        height: 15rem;
+
+    }
+
+}
