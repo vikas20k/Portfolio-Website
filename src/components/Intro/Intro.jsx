@@ -1,6 +1,6 @@
 import React from 'react'
 import IntroStyle from "./Intro.module.css"
-import vikas from "../../assets/images/vikas.pdf"
+import vikas from "../../assets/images/vikasResume.pdf"
 import photo from "../../assets/images/photo1.png"
 
 
