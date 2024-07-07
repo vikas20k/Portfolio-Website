@@ -8,7 +8,7 @@ const Mywork = [
         id: 1,
         name: "e-Commerce website",
         img: ECommerce,
-        link: "https://amozon.com/",
+        link: "https://e-commerce-red-eight-20.vercel.app",
         details: "React ,Context Api ,react-router, React-icons"
 
     },
