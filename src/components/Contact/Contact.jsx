@@ -15,7 +15,7 @@ function Contact() {
     const [textarea, setTextarea] = useState("")
     const [error, setError] = useState("")
     const [sendmessage, setSendmessage] = useState("")
-    const key = "9ad18b07-cbc9-4d91-81bd-cba9d5929625"
+   
 
     const onSubmit = async (event) => {
         event.preventDefault();
